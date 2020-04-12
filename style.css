@@ -1,0 +1,32 @@
+.e-assistent {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(50, 115, 220);
+  color: white;
+  font-size: 1.5em;
+  padding: 1em 1em 0.8em 1em;
+  border-radius: 100px;
+  box-shadow: 0 8px 24px #e2e8ed;
+  cursor: pointer;
+}
+.e-assist-window {
+  background-color: rgb(240, 240, 240);
+  padding: 0.2em 1em 1em 1em;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0 8px 24px #e2e8ed;
+  border-radius: 5px;
+}
+.view-e-assist-window {
+  display: none;
+}
+.e-assist-window-heading {
+  font-size: 1.25em;
+}
+.e-assist-windwo-chat {
+  background-color: rgb(255, 255, 255);
+  padding: 0.5em;
+  border-radius: 5px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="e-assistent" onclick="esmartassistent()">
+      <i class="lni lni-comments"></i>
+    </div>
+
+    <div class="e-assist-window" id="e-assist-window">
+      <p class="e-assist-window-heading">Vielleicht kann ich Ihnen helfen</p>
+      <div class="e-assist-windwo-chat">
+        <div id="eapp">
+          <div v-for="query in queries">
+            <a v-bind:href="query.href">{{query.hint}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./e-smart-assistent.js"></script>
+    <script src="./e-smart-app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </body>
+</html>
